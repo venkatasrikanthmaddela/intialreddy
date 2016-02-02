@@ -1,0 +1,39 @@
+{% load static %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="{{ STATIC_URL }}css/foundation.css" rel="stylesheet">
+    <link href="{{ STATIC_URL }}css/app.css" rel="stylesheet">
+
+</head>
+<body>
+  <div class="sticky-container">
+
+
+      <div class="row">
+          <div class="large-12 columns">
+             <div class="top-bar">
+                 <h3 class="site-title">
+                    Test Site
+                 </h3>
+             </div>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="large-7 columns LoginFormDiv">
+              <p>Login Form here</p>
+          </div>
+          <div class="large-4 medium-3 columns AccountProfile">
+              <p>Account Profile</p>
+          </div>
+      </div>
+
+
+
+  </div>
+</body>
+</html>

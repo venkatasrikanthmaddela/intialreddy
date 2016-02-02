@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'open-sans';
+    src: url("/home/srikanthmv/PycharmProjects/testing/static/fonts/OpenSans-Regular.ttf")
+
+}
+body,h3{
+    font-family: 'open-sans';
+}
+.LoginFormDiv,.AccountProfile{
+    margin-top: 10px;
+    border:1px solid;
+}
+.LoginFormDiv{
+    margin-left: 15px;
+}
