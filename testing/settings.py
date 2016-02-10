@@ -5,7 +5,6 @@ from django.conf import global_settings
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-BASE_DIR = "/home/srikanthmv/PycharmProjects/testing"
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
